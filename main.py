@@ -23,7 +23,7 @@ def main():
     st.set_page_config(page_title="교육과정", page_icon="📖")  # 웹 페이지 제목과 아이콘 설정
     st.image('image.png')  # 상단에 이미지를 표시
     st.title("_:blue[교육과정 탐색 도우미]_ 🏫")  # 제목 표시 (에너지 학습 도우미)
-    st.header("칼퇴 기원 퇴근 요정", divider='black')  # 주의사항 표시
+    st.header("칼퇴 기원 퇴근 요정", divider='blue')  # 주의사항 표시
 
     # 세션 상태 초기화
     # Streamlit 세션에서 대화 상태, 대화 기록, 처리 완료 여부 등을 초기화하여 유지
